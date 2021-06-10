@@ -1,6 +1,4 @@
-// console.log("Namaste Javascript");
-// alert("Namste People");
-// prompt("Give Your username");
-var username = prompt("Give me your use name");
-var welcomeMessage = "This tricks works " + username;
-alert(welcomeMessage);
+var btnTranslator = document.querySelector("#btn-translate");
+btnTranslator.addEventListener("click", function clickEventhandler() {
+  console.log("clicked");
+});
