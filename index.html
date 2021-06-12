@@ -5,9 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>banana-speak</title>
-</head>
-<body>
+    <style>
+        textarea{
+            width:80%;
+            height:10vh;
+            Margin:1rem;
+            padding:1rem;
+            display:block;
+
+        }
+    </style>
+  </head>
+  <body>
     <h1>Talk Banana</h1>
+    <textarea
+      placeholder="Put your sentence in english here, we will convert it Banana lang"
+      id="txt-input"
+    ></textarea>
     <button id="btn-translate">Translate</button>
     <script src="app.js" type="text/javascript"></script>
   </body>
